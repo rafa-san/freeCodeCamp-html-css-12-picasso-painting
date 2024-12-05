@@ -3,25 +3,28 @@ body {
 }
 
 #back-wall {
-  background-color: #8b4513;
-  height: 60%;
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  background-color: #8b4513;
+  height: 60%;
+  width: 100%;
   z-index: -1;
 }
 
 #offwhite-character {
-  background-color: ghostwhite;
-  height: 550px;
-  width: 300px;
   position: absolute;
   top: 20%;
   left: 17.5%;
+  background-color: ghostwhite;
+  height: 550px;
+  width: 300px;
 }
 
 #white-hat {
+  position: absolute;
+  top: -140px;
+  left: 0;
   border-style: solid;
   border-top-color: transparent;
   border-right-color: transparent;
@@ -30,61 +33,61 @@ body {
   border-width: 0 120px 140px 180px;
   height: 0;
   width: 0;
-  position: absolute;
-  top: -140px;
-  left: 0;
 }
 
 #black-mask {
-  background-color: rgb(45,31,19);
-  height: 50px;
-  width: 100%;
   position: absolute;
   top:0;
   left: 0;
+  background-color: rgb(45,31,19);
+  height: 50px;
+  width: 100%;
   z-index: 1;
 }
 
 #gray-instrument {
-  background-color: rgb(167, 162, 117);
-  height: 40%;
-  width: 15%;
   position: absolute;
   top: 50px;
   left: 125px;
+  background-color: rgb(167, 162, 117);
+  height: 40%;
+  width: 15%;
   z-index: 1;
 }
 
 .black-dot {
+  display: block;
   background-color: rgb(45, 31, 19);
   border-radius: 50%;
   height: 10px;
   margin: auto;
   margin-top: 65%;
   width: 10px;
-  display: block;
 }
 
 #tan-table {
-  background-color: #d2691e;
-  height: 140px;
-  width: 450px;
   position: absolute; 
   top: 275px;
   left: 15px;
+  background-color: #d2691e;
+  height: 140px;
+  width: 450px;
   z-index: 1;
 }
 
 #black-character {
-  background-color: rgb(45, 31, 19);
-  height: 500px;
-  width: 300px;
   position: absolute;
   top: 30%;
   left: 59%;
+  background-color: rgb(45, 31, 19);
+  height: 500px;
+  width: 300px;
 }
 
 #black-hat {
+  position: absolute;
+  top: -150px;
+  left: 0;
   border-style: solid;
   border-top-color: transparent;
   border-right-color: transparent;
@@ -93,34 +96,31 @@ body {
   border-width: 150px 0 0 300px;
   height: 0;
   width: 0;
-  position: absolute;
-  top: -150px;
-  left: 0;
 }
 
 #gray-mask {
-  background-color: rgb(167, 162, 117);
-  height: 150px;
-  width: 150px;
   position: absolute;
   top: -10px;
   left: 70px;
+  background-color: rgb(167, 162, 117);
+  height: 150px;
+  width: 150px;
 }
 
 #white-paper {
-  background-color: ghostwhite;
-  height: 100px;
-  width: 400px; 
   position: absolute;
   top: 250px;
   left: -150px;
+  background-color: ghostwhite;
+  height: 100px;
+  width: 400px; 
   z-index: 1;
 }
 
 .fa-music {
+  display: inline-block;
   margin-top: 8%;
   margin-left: 13%;
-  display: inline-block;
 }
 
 .blue {
@@ -128,47 +128,47 @@ body {
 }
 
 #blue-left {
-  height: 300px;
-  width: 500px;
   position: absolute;
   top: 20%;
   left: 20%;
+  height: 300px;
+  width: 500px;
 }
 
 #blue-right {
-  height: 300px;
-  width: 400px;
   position: absolute;
   top: 50%;
   left: 40%;
+  height: 300px;
+  width: 400px;
 }
 
 #orange-character {
-  background-color: rgb(240, 78, 42);
-  height: 550px;
-  width: 250px;
   position: absolute;
   top: 25%;
   left: 40%;
+  background-color: rgb(240, 78, 42);
+  height: 550px;
+  width: 250px;
 }
 
 #black-round-hat {
+  position: absolute;
+  top: -100px;
+  left: 5px;
   background-color: rgb(45, 31, 19);
   border-radius: 50%;
   height: 150px;
   width: 180px;
-  position: absolute;
-  top: -100px;
-  left: 5px;
   z-index: -1;
 }
 
 #eyes-div {
-  height: 50px;
-  width: 180px;
   position: absolute;
   top: -40px;
   left: 20px;
+  height: 50px;
+  width: 180px;
   z-index: 3;
 }
 
@@ -178,6 +178,7 @@ body {
 }
 
 .triangle {
+  display: inline-block;
   border-style: solid;
   border-top-color: transparent;
   border-right-color: gold;
@@ -186,15 +187,14 @@ body {
   border-width: 42px 45px 45px 0;
   height: 0;
   width: 0;
-  display: inline-block;
 }
 
 #guitar {
-  height: 100px;
-  width: 100%;
   position: absolute;
   top: 120px;
   left: 0px;
+  height: 100px;
+  width: 100%;
   z-index: 3;
 }
 
@@ -216,18 +216,18 @@ body {
 }
 
 .fa-bars {
+  display: block;
   margin-top: 30%;
   margin-left: 40%;
-  display: block;
 }
 
 #guitar-neck {
-  background-color: #d2691e;
-  height: 30px;
-  width: 200px;
   position: absolute;
   top: 45px;
   left: 200px;
+  background-color: #d2691e;
+  height: 30px;
+  width: 200px;
   z-index: 3;
 }
 
